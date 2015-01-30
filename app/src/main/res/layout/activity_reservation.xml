@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_nfc"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:contentDescription="NFC"
+            android:background="@drawable/nfc"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:layout_margin="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:id="@+id/textView_explanation"
+            android:text="Approach the NFC Tag in the Buga"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:id="@+id/layout_reservation">
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:text="ID Buga: "
+                android:textSize="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:gravity="bottom"
+                android:id="@+id/buga_id"
+                android:text="id"
+                android:textSize="20dp"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/background_light"
+                android:textColorHint="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hora do Fim do Estacionamento"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/textView4"
+            android:gravity="center"/>
+
+        <TimePicker
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePicker" />
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Reservar"
+                android:id="@+id/button_reservar"
+                android:textColor="#ffffffff"
+                android:background="@drawable/button_entrar"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

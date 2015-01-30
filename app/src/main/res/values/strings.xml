@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BugaCity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nfc">NFC</string>
+    <string name="title_activity_main">BugaCity</string>
+    <string name="title_activity_reservation">Reservation</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="custom_layout">Custom Layout</string>
+    <string name="scan_from_fragment">Scan from fragment</string>
+    <string name="encode_text">Encode Text</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="xy_wants_z_dollar_from_you">You need to pay %1$s euros to %2$s </string>
+    <string name="text_received_request">Payment</string>
+    <string name="paypal_success">Payment succeeded</string>
+    <string name="paypal_failed">Payment failed</string>
+    <string name="paypal_canceled">Payment canceled</string>
+
+</resources>

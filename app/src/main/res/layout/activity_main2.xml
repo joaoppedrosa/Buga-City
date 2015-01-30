@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.bugacity.MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="15dp"
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher"
+        app:border_width="2dp"
+        app:border_color="#FF000000"/>
+
+
+    <TextView
+        android:id="@+id/nameuser"
+        android:text="NameUSer"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/display"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_reservations"
+            android:text="Reservations"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button1"
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/button_traject"
+            android:text="Traject"
+            android:textSize="12dp"
+            android:background="@drawable/button2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<Button-->
+            <!--android:id="@+id/button_nfc"-->
+            <!--android:text="NFC"-->
+            <!--android:textSize="12dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:background="@drawable/button3"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp" />-->
+
+        <Button
+            android:id="@+id/button_logout"
+            android:text="Logout"
+            android:textSize="12dp"
+            android:background="@drawable/button4"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+</LinearLayout>
